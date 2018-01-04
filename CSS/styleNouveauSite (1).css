@@ -1,0 +1,134 @@
+@font-face{
+  font-family:"Spectral SC";
+  src:url(../fonts/Spectral/SpectralSC-Regular.ttf) format ('ttf');
+}
+
+*{
+  font-family: "Spectral SC";
+  box-sizing: border-box; /*Inclure le padding à la valeur width*/
+}
+
+body {
+  background: #A4A4A4;
+  color: white;
+/*Supression de la marge par défaut sur le body*/
+  margin: 0;
+}
+header, footer {
+  background-color:#424242;
+  padding: 30px;
+  height: 200px;
+  width: 100%;
+  margin-bottom: -30px;
+}
+p {
+ margin: 0;
+ text-indent: 1.3em;
+}
+p input {
+  text-indent: 0;
+}
+a:link img, a:visited img {
+  border: none;
+}
+#texte {
+  margin: 2ex 2%;
+}
+.rectangle {
+  margin-bottom: 1ex;
+  padding: 1ex 1em;
+}
+h2 {
+  border-bottom: #7f5200 solid 2px;
+  color: #185922;
+  background: transparent;
+  margin: 0 0 .2ex;
+  font-size: large;
+  font-variant: small-caps;
+}
+h3 {
+  color: #185922;
+  background: transparent;
+  margin: .7ex 0 0.1ex 1em;
+  font-size: large;
+/*  font-variant: small-caps; */
+}
+h2:after {
+  content: " >";
+  color: #bf402a;
+  background: transparent;
+}
+h2:first-letter, h3:first-letter {
+  color: #bf402a;
+  background: transparent;
+}
+.graphiste {
+  display: inline-block;
+  font-size: small;
+  font-weight: normal;
+}
+.graphiste:before { content: "(Graphiste : "; }
+.graphiste:after { content: ")";}
+#barnav {
+  text-align: center;
+  margin: 1ex 1em;
+  border-color: #7f5200;
+  border-style: solid none;
+  border-width: 2px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #8de89e;/*#77d689;*/
+  color: #000000;
+}
+#barnav * {
+  margin: 0;
+  padding: .2ex 0;
+}
+#barnav ul {
+  background: #b7ffc4;
+  color: #000000;
+}
+#barnav li {
+  display: inline;
+  padding: 1px 3px 1px 7px;
+  border-left: 1px solid #066;
+}
+#barnav li:first-child {
+  border-left: none;
+}
+#menu {
+
+  left: 22%;
+  right: 2%;
+  width: 18%;
+  top: 90px;
+  margin: 2ex 0;
+  padding: 1ex .5em;
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+#texte {
+  left: 22%;
+  right: 2%;
+  top: 90px;
+  margin: 2ex 0 2ex 1em;
+}
+#menu p {
+
+  text-indent: 0;
+}
+
+.menu2 li{
+  display:inline-block;
+  list-style: none;
+  padding: 30;
+}
+.menu2 li a{
+ display: inline-block; /*On aurait pu mettre "block"...*/
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  margin-right:10px;
+}

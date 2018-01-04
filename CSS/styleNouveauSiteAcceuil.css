@@ -1,0 +1,27 @@
+#menu {
+  position: absolute;
+  left: 2%;
+  right: 78%;
+  width: 18%;
+  top: 90px;
+  margin: 2ex 0;
+  padding: 1ex .5em;
+  border-style: none solid solid none;
+  border-color: #000000;
+  border-width: 0 1px 1px 0;
+  background-color:#a2c2c4;
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+#texte {
+  position: absolute;
+  left: 22%;
+  right: 2%;
+  top: 90px;
+  margin: 2ex 0 2ex 1em;
+}
+#menu p {
+  text-indent: 0;
+}
